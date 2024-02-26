@@ -1,11 +1,9 @@
-# Eksploracja masywnych zbiorów danych - projekt
-
-## Opis
+# Eksploracja masywnych zbiorów danych - Projekt
 
 Dane które zostały poddane analizie zostały wzięte z [Million Song Dataset](http://millionsongdataset.com/)
-Projekt stanowi rozwiązanie 5 zadań z zakresu **analizy i eksploracji danych**.:
+Projekt stanowi rozwiązanie 5 zadań z zakresu **analizy i eksploracji danych**. Implementacje znajdują się w pliku **.ipynb**
 
-### Zadanie 1. - Próbkowanie
+## Zadanie 1. - Próbkowanie
 
 Dane: **Zbiór rekomendacji** dla uzyskanej próbki użytkowników.
 
@@ -13,7 +11,7 @@ Dane: **Zbiór rekomendacji** dla uzyskanej próbki użytkowników.
 2. Zaimplementować technikę **próbkowania proporcjonalnego strumienia**. Zastosować **haszowanie** po użytkownikach.
 3. Pobrać 10% próbkę danych i na tej podstawie stworzyć histogram liczby odsłuchań
 
-### Zadanie 2. - Szukanie elementów podobnych
+## Zadanie 2. - Szukanie elementów podobnych
 
 Dane: **Zbiór musiXmatch** podobne.
 
@@ -26,7 +24,7 @@ Uwaga:
 2. Dla testów można wybrać jakąś charakterystyczną piosenkę, np. świąteczną i zbadać czy utwory podobne też są w tej tematyce.
 3. **Shinglety** warto wygenerować po słowach.
 
-### Zadanie 3. - Filtr Blooma
+## Zadanie 3. - Filtr Blooma
 
 Dane: **Zbiór musiXmatch** (trzeba dobrać odpowiednio parametry). Należy z tego zbioru wyrzucić stopwords i:
 
@@ -41,7 +39,7 @@ Uwaga:
 1. Proszę zwrócić uwagę na inicjalizację w strukturze bitarray. Struktura ta normalnie nie inicjalizuje tablicy zerami tylko kopiuje istniejące obiekty.
 2. Operacje bitowe pozwalają dogenerować bardzo szybko nowe hashe za pomocą tzw. double hashing.
 
-### Zadanie 4. - Szukanie społeczności
+## Zadanie 4. - Szukanie społeczności
 
 Dane: **Zbiór rekomendacji**
 
@@ -53,7 +51,7 @@ Uwaga:
 
 1. Korelację Pearsona należy liczyć tylko dla tych współrzędnych, dla których obydwa wektory mają niezerowe wartości, np. pearsonr (x, y) dla x = [0, 4, 1, 0], y = [3, 0, 0, 2], wynosi 0, a nie −0.7337.
 
-### Zadanie 5. - System rekomendacyjny
+## Zadanie 5. - System rekomendacyjny
 
 Dane: **Zbiór rekomendacji**
 
